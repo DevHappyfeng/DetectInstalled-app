@@ -14,6 +14,17 @@
 		E210A6791B1021AE00C7265D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E210A6781B1021AE00C7265D /* Images.xcassets */; };
 		E210A67C1B1021AE00C7265D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E210A67A1B1021AE00C7265D /* LaunchScreen.xib */; };
 		E210A6881B1021AE00C7265D /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E210A6871B1021AE00C7265D /* TestTests.m */; };
+		E21F5B0B1B14B778007AC404 /* DetectAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E21F5B0A1B14B778007AC404 /* DetectAppManager.m */; };
+		E2F0BE331B16C22400735DF4 /* AppRunModeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F0BE321B16C22400735DF4 /* AppRunModeHandler.m */; };
+		E2F0BE351B16CD8700735DF4 /* muteAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2F0BE341B16CD8700735DF4 /* muteAudio.mp3 */; };
+		E2F0BE371B16F5D700735DF4 /* libTelephonyIOKitDynamic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F0BE361B16F5D700735DF4 /* libTelephonyIOKitDynamic.dylib */; };
+		E2F0BE3A1B16F67E00735DF4 /* UIDevice+io_Extern.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F0BE391B16F67E00735DF4 /* UIDevice+io_Extern.m */; };
+		E2F0BE3C1B16FF7200735DF4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F0BE3B1B16FF7200735DF4 /* IOKit.framework */; };
+		E2F0BE3F1B17173B00735DF4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F0BE3E1B17173B00735DF4 /* CoreFoundation.framework */; };
+		E2F0BE411B171ADB00735DF4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F0BE401B171ADB00735DF4 /* CoreTelephony.framework */; };
+		E2F0BE431B171B5300735DF4 /* liblockdown.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F0BE421B171B5300735DF4 /* liblockdown.dylib */; };
+		E2F0BE451B171E1300735DF4 /* ManagedConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F0BE441B171E1300735DF4 /* ManagedConfiguration.framework */; };
+		E2F0BE481B172A4C00735DF4 /* TGManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F0BE471B172A4C00735DF4 /* TGManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,22 @@
 		E210A6811B1021AE00C7265D /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E210A6861B1021AE00C7265D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E210A6871B1021AE00C7265D /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		E21F5B091B14B778007AC404 /* DetectAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectAppManager.h; sourceTree = "<group>"; };
+		E21F5B0A1B14B778007AC404 /* DetectAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectAppManager.m; sourceTree = "<group>"; };
+		E2F0BE311B16C22400735DF4 /* AppRunModeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRunModeHandler.h; sourceTree = "<group>"; };
+		E2F0BE321B16C22400735DF4 /* AppRunModeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRunModeHandler.m; sourceTree = "<group>"; };
+		E2F0BE341B16CD8700735DF4 /* muteAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muteAudio.mp3; sourceTree = "<group>"; };
+		E2F0BE361B16F5D700735DF4 /* libTelephonyIOKitDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTelephonyIOKitDynamic.dylib; path = usr/lib/libTelephonyIOKitDynamic.dylib; sourceTree = SDKROOT; };
+		E2F0BE381B16F67E00735DF4 /* UIDevice+io_Extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+io_Extern.h"; sourceTree = "<group>"; };
+		E2F0BE391B16F67E00735DF4 /* UIDevice+io_Extern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+io_Extern.m"; sourceTree = "<group>"; };
+		E2F0BE3B1B16FF7200735DF4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		E2F0BE3D1B17171B00735DF4 /* CoreTelephony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTelephony.h; sourceTree = "<group>"; };
+		E2F0BE3E1B17173B00735DF4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E2F0BE401B171ADB00735DF4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E2F0BE421B171B5300735DF4 /* liblockdown.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblockdown.dylib; path = usr/lib/liblockdown.dylib; sourceTree = SDKROOT; };
+		E2F0BE441B171E1300735DF4 /* ManagedConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/ManagedConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		E2F0BE461B172A4C00735DF4 /* TGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGManager.h; sourceTree = "<group>"; };
+		E2F0BE471B172A4C00735DF4 /* TGManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F0BE431B171B5300735DF4 /* liblockdown.dylib in Frameworks */,
+				E2F0BE411B171ADB00735DF4 /* CoreTelephony.framework in Frameworks */,
+				E2F0BE3F1B17173B00735DF4 /* CoreFoundation.framework in Frameworks */,
+				E2F0BE371B16F5D700735DF4 /* libTelephonyIOKitDynamic.dylib in Frameworks */,
+				E2F0BE3C1B16FF7200735DF4 /* IOKit.framework in Frameworks */,
+				E2F0BE451B171E1300735DF4 /* ManagedConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,10 @@
 		E210A65F1B1021AE00C7265D = {
 			isa = PBXGroup;
 			children = (
+				E2F0BE421B171B5300735DF4 /* liblockdown.dylib */,
+				E2F0BE401B171ADB00735DF4 /* CoreTelephony.framework */,
+				E2F0BE3E1B17173B00735DF4 /* CoreFoundation.framework */,
+				E2F0BE361B16F5D700735DF4 /* libTelephonyIOKitDynamic.dylib */,
 				E210A66A1B1021AE00C7265D /* Test */,
 				E210A6841B1021AE00C7265D /* TestTests */,
 				E210A6691B1021AE00C7265D /* Products */,
@@ -89,6 +126,17 @@
 				E210A6781B1021AE00C7265D /* Images.xcassets */,
 				E210A67A1B1021AE00C7265D /* LaunchScreen.xib */,
 				E210A66B1B1021AE00C7265D /* Supporting Files */,
+				E21F5B091B14B778007AC404 /* DetectAppManager.h */,
+				E21F5B0A1B14B778007AC404 /* DetectAppManager.m */,
+				E2F0BE311B16C22400735DF4 /* AppRunModeHandler.h */,
+				E2F0BE321B16C22400735DF4 /* AppRunModeHandler.m */,
+				E2F0BE441B171E1300735DF4 /* ManagedConfiguration.framework */,
+				E2F0BE3B1B16FF7200735DF4 /* IOKit.framework */,
+				E2F0BE381B16F67E00735DF4 /* UIDevice+io_Extern.h */,
+				E2F0BE391B16F67E00735DF4 /* UIDevice+io_Extern.m */,
+				E2F0BE3D1B17171B00735DF4 /* CoreTelephony.h */,
+				E2F0BE461B172A4C00735DF4 /* TGManager.h */,
+				E2F0BE471B172A4C00735DF4 /* TGManager.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -96,6 +144,7 @@
 		E210A66B1B1021AE00C7265D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2F0BE341B16CD8700735DF4 /* muteAudio.mp3 */,
 				E210A66C1B1021AE00C7265D /* Info.plist */,
 				E210A66D1B1021AE00C7265D /* main.m */,
 			);
@@ -168,6 +217,11 @@
 				TargetAttributes = {
 					E210A6671B1021AE00C7265D = {
 						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					E210A6801B1021AE00C7265D = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -199,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F0BE351B16CD8700735DF4 /* muteAudio.mp3 in Resources */,
 				E210A6771B1021AE00C7265D /* Main.storyboard in Resources */,
 				E210A67C1B1021AE00C7265D /* LaunchScreen.xib in Resources */,
 				E210A6791B1021AE00C7265D /* Images.xcassets in Resources */,
@@ -219,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F0BE331B16C22400735DF4 /* AppRunModeHandler.m in Sources */,
 				E210A6741B1021AE00C7265D /* ViewController.m in Sources */,
+				E2F0BE481B172A4C00735DF4 /* TGManager.m in Sources */,
 				E210A6711B1021AE00C7265D /* AppDelegate.m in Sources */,
+				E2F0BE3A1B16F67E00735DF4 /* UIDevice+io_Extern.m in Sources */,
+				E21F5B0B1B14B778007AC404 /* DetectAppManager.m in Sources */,
 				E210A66E1B1021AE00C7265D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +339,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Mingmin Wang (T9UGMUW6VG)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -347,7 +406,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +423,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +490,7 @@
 				E210A68D1B1021AE00C7265D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E210A68E1B1021AE00C7265D /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +499,7 @@
 				E210A6901B1021AE00C7265D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
